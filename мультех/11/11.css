@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+body{
+    background: #07111f;
+}
+h2{
+    margin-top: 20px;
+    color:#D1A954;
+    font-size: 34px;
+}
+.elem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 50px;
+}
+.elem .elem-ic{
+    position: relative;
+    z-index: 0;
+}
+.elem .elem-ic img{
+    width: 630px;
+    opacity: 70% ;
+}
+.elem .elem-ic p{
+    color:white;
+    font-size: 24px;
+    font-weight: 100;
+    z-index: 1;
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+}

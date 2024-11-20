@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.menu .elem h2{
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 1.5;
+}
+.menu .elem p{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.menu .elem ul{
+    margin-top: 20px;
+}
+.menu .elem ul li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+.menu .elem .first{
+    margin-bottom: 30px;
+}
+.menu .elem .elem-p p{
+    text-transform: uppercase;
+    opacity: 50%;
+}
+.menu .elem button{
+    width: 164px;
+    height: 45px;
+    background:#00868A;
+    border:none;
+    color:white;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 15px;
+}

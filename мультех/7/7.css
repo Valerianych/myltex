@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #E0E0E0;
+    font-family: Montserrat;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+.main .left h2{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.4;
+    color: #323232;
+}
+.main .left p{
+    margin-top: 40px;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.main .left a{
+    margin-top: 30px;
+    color: #4985FF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+    margin-top: 90px;
+    background-color: #E0E0E0;
+    height: 1px;
+    width: 1110px;
+    /* border: none; */
+}
+.elem{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.elem .project{
+    display: flex;
+    flex-direction: column;
+}
+.elem .project .up{
+    display: flex;
+    justify-content: space-between;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.elem .project .down{
+    color: #999999;
+    line-height: 1.4;
+    font-size: 16px;
+}

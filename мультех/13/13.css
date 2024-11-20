@@ -1,0 +1,40 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+.main{
+    background:#e2fafa;
+    height: 350px;
+}
+h2{
+    color:#00868A;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.5;
+    padding-top: 80px;
+    text-align: center;
+}
+.elem{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.elem .elem-ic div{
+    width: 306px;
+    height: 114px;
+    background:#00868A;
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.elem .elem-ic div p{
+    padding-left: 30px;
+    padding-top: 25px;
+}
